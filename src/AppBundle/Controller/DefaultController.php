@@ -19,6 +19,7 @@ class DefaultController extends Controller {
     ]);
     
     $probe = 'test';
+    $proba1 = 'test1';
     
   }
 

@@ -17,6 +17,9 @@ class DefaultController extends Controller {
                 //'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
                 'base_dir' => realpath($this->getParameter('kernel.root_dir') . '/..') . DIRECTORY_SEPARATOR,
     ]);
+    
+    $probe = 'test';
+    
   }
 
   /*
